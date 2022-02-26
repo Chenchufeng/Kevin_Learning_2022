@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="concurrent" />
+        <module name="redis_day1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="concurrent" target="6" />
+      <module name="redis_day1" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
